@@ -1,0 +1,46 @@
+.custom_navbar {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 170px;
+  margin-top: 40px;
+}
+.custom_navbar li {
+  margin: 0 30px;
+  font-weight: 700;
+}
+.custom_navbar a:hover {
+  color: #fff;
+}
+.logo {
+  width: 240px;
+  margin: -70px 540px 0 0;
+}
+.shop_basket {
+  margin-left: 80px;
+  margin-top: 50px;
+  position: relative;
+}
+.shop_basket_circle {
+  position: absolute;
+  top: -40px;
+  width: 15px;
+  height: 15px;
+  border-radius: 50%;
+  border: 2px solid black;
+}
+.shop_basket_rope {
+  position: absolute;
+  top: -24px;
+  right: -28px;
+  width: 15px;
+  height: 15px;
+  transform: rotate(95deg);
+}
+.shop_basket_icon {
+  position: absolute;
+  top: 50px;
+  right: -15px;
+  font-size: 70px;
+  transform:  rotate(-20deg) rotateY(180deg);
+  cursor: pointer;
+}
